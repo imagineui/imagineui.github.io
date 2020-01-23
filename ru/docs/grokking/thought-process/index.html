@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ru" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Thought process &mdash; документация ImagineUI 0.1.0</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../../_static/jquery.js"></script>
+        <script type="text/javascript" src="../../_static/underscore.js"></script>
+        <script type="text/javascript" src="../../_static/doctools.js"></script>
+        <script type="text/javascript" src="../../_static/language_data.js"></script>
+        <script type="text/javascript" src="../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Алфавитный указатель" href="../../genindex/" />
+    <link rel="search" title="Поиск" href="../../search/" />
+    <link rel="prev" title="Числа" href="../../syntax/numbers/" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../" class="icon icon-home"> ImagineUI
+          
+
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search/" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Содержание:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../syntax/">Синтаксис</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/page/">Страница</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/block/">Блок</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/example/">Пример</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/main/">Главный</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/text/">Текст</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/header/">Заголовок</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/field/">Поле</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/button/">Кнопка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/list/">Список</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/image/">Картинка</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/consists_of/">Включает в себя</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/with_icon/">С иконкой</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/aligned/">Расположены</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/rows/">Строки</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/columns/">Столбец</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../syntax/numbers/">Числа</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Get involved:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Thought process</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../">ImagineUI</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../">Docs</a> &raquo;</li>
+        
+      <li>Thought process</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/imagineui/imagineui-website/blob/master/docs/source/grokking/thought-process.rst" class="fa fa-github"> Edit on GitHub</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="thought-process">
+<h1>Thought process<a class="headerlink" href="#thought-process" title="Ссылка на этот заголовок">¶</a></h1>
+<p>The purpose of this page is to document the decisions behind ImagineUI so that it’s easier to transfer deep knowledge of the system later on.</p>
+<div class="section" id="starting-points">
+<h2>Starting points<a class="headerlink" href="#starting-points" title="Ссылка на этот заголовок">¶</a></h2>
+<p>First of all, if we develop a tool for UX design, well, we have to provide parameters for the UI elements anyhow.</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Scene (.scene) – Describes elements and areas. <a class="reference external" href="https://imagineui.github.io/en/docs/">Documentation</a></dt><dd><ul>
+<li><p>Human-readable, as in «you can use .scene as a description for a task given to a UI designer»;</p></li>
+<li><p>Format should feel familiar for business/system analysts, as they are the most possible candidates for user-base;</p></li>
+<li><p>DocOps; VCS, CI, Single-source, integration into existing toolsets should be as seamless as possible;</p></li>
+<li><p>We should have as few features in the core language as possible, but polished to a point when writing text feel easier than using pen and paper. Less is more.</p></li>
+<li><p>The tool should cover the UX of most modern apps/sites (ranging from messaging and e-commerce to complex geo-based systems) to be applicable in real-world scenarios.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<p>We need a simple tool that does complex stuff.
+I think, we can solve that by separating concerns via splitting the UX definitions and the UI details. Basically, HTML &amp; CSS all over again, but going in the opposite direction (low-fidelity, no interactivity, etc.) in favor of ease of use.</p>
+<ul class="simple">
+<li><p>Guides (.guide) – Target-specific instructions for building layouts (i.e. to accommodate screen resolution, UI guidelines, etc.)</p></li>
+</ul>
+<p>That way we can have the .guide files as complex as we want, but as new target platforms don’t appear often, we can reuse .guide files for next projects, whilst keeping the .scene format lean.</p>
+</div>
+<div class="section" id="key-principles">
+<h2>Key Principles<a class="headerlink" href="#key-principles" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Keep it simple</dt><dd><ul>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix way</a>, hence 1 input file corresponds to 1 output. Advanced templating is to be done with higher-order tools (i.e. <a class="reference external" href="https://foliant-docs.github.io/docs/">Foliant</a>)</p></li>
+<li><p>Debatable, as some forms of templating are too common to be excluded from a tool (i.e. including a block from a file)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Output should not try to look like too much like a mock-up, so as not to be confused with the final product before any UI/UX designer steps in.</p></li>
+</ul>
+</div>
+<div class="section" id="roadmap">
+<h2>Roadmap<a class="headerlink" href="#roadmap" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p>[x] Scene Inflation/Layout Measurement tech.demo with Flexbox, hardcoded .guide scene descriptions</p></li>
+<li><p>[x] Document (Gherkin-like) .scene format, implement a parser</p></li>
+<li><p>[ ] [In Progress] Test coverage, CLI UX, usage docs with API and popular cases</p></li>
+<li><p>[ ] Define the .guide API, rules to choose widgets and an enhanced renderer</p></li>
+<li><p>[x] ~~Optimize rendering time (prebuilt TS, running daemon, incremental builds, etc.)~~ The core is rewritten with Preact, rendering in an editor is instant, takes 1-2 seconds to render with CLI</p></li>
+</ul>
+<p>See also: <a class="reference external" href="https://trello.com/b/vJbtfC6o/imagineui">(In Russian) Some random thoughts documented on Trello</a></p>
+</div>
+<div class="section" id="tech-notes">
+<h2>Tech notes<a class="headerlink" href="#tech-notes" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Parsing a language yields a tree (AST).
+UI elements are formed with trees (i.e. DOM).</p>
+<p>Not having any layer of indirection/abstraction between those seems to fit well for low-fidelity description of UI elements, which is a huge plus for performance and ease of the tool’s development.</p>
+<p>See also: <a class="reference external" href="https://github.com/imagineui/imagineui/blob/master/packages/imagineui-core/src/wireframe.tsx">Preact renderer for the .scene AST</a></p>
+</div>
+<div class="section" id="similar-work">
+<h2>Similar work<a class="headerlink" href="#similar-work" title="Ссылка на этот заголовок">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="http://cucumber.io/">Gherkin/Cucumber</a> – Successful natural-feeling language framework</p></li>
+<li><p><a class="reference external" href="http://plantuml.com/salt">PlantUML Salt</a> – Good DocOps experience, poor UI renders</p></li>
+<li><p>Text adventures – Scene/Props/Actions routine somewhat make sense to describe UI</p></li>
+</ul>
+</div>
+<div class="section" id="contact">
+<h2>Contact<a class="headerlink" href="#contact" title="Ссылка на этот заголовок">¶</a></h2>
+<p>Feel free to share your thoughts at <a class="reference external" href="mailto:vadkou&#37;&#52;&#48;wave909&#46;com">vadkou<span>&#64;</span>wave909<span>&#46;</span>com</a>.
+DSL design relies on the feedback from the users, so your input will be greatly appreciated.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../../syntax/numbers/" class="btn btn-neutral float-left" title="Числа" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Nick Volynkin
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+    <!-- Theme Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-107215405-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+
+    
+   
+
+</body>
+</html>
