@@ -92,13 +92,10 @@
             <h2 class="title">Попробуй CLI</h2>
             <p>Мы сейчас упаковываем ImagineUI в консольную программу. Пока можете попробовать альфа-версию, скачав и собрав проект с GitHub.</p>
             <p class="cli-code">
-                # Сначала нужно глобально поставить Puppeteer
-                npm install -g puppeteer
+                npx imagineui-cli --input=%full-path-to-.scene% --outputDir=%full-path-to-folder%
 
-                git clone git@github.com:imagineui/imagineui.git
-                cd imagineui
-                yarn
-                yarn start --input=%full-path-to-.scene% --output=%full-path-to-.png%
+                # Установите imagineui-cli глобально, чтобы не качать долго Puppeteer при запуске
+                npm install -g imagineui-cli
             </p>
         </div>
     </section>
